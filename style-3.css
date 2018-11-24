@@ -1,0 +1,132 @@
+body {
+	font-family: "Special Elite";
+}
+
+h1, div.credit {
+	text-align: center;
+	max-width: 480px;
+	margin: 1em auto;
+	padding: 0.5em 0 0.3em;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+h1 {
+	font-size: 1.5em;
+}
+
+div.ship {
+	text-align: center;
+	font-size: 0.8em;
+}
+
+div.credit {
+	font-size: 0.7em;
+}
+
+div.caption {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+div.ship {
+	width: 20vw; 
+	height: 20vw;
+	position: absolute;
+	bottom: 10vh;
+}
+
+div.sloop {
+	width: 10vw; 
+	height: 9vw;
+	left: 30vw;
+	bottom: 75vh;
+}
+
+div.ketch {
+	width: 13vw; 
+	height: 11.5vw;
+	right: 30vw;
+	bottom: 70vh;
+}
+
+div.brigantine {
+	width: 13vw; 
+	height: 11.5vw;
+	left: 10vw;
+	bottom: 66vh;
+}
+
+div.caravel {
+	width: 13vw; 
+	height: 12vw;
+	right: 10vw;
+	bottom: 60vh;
+}
+
+div.carrack {
+	width: 16vw; 
+	height: 13.5vw;
+	right: 42vw;
+	bottom: 57vh;
+}
+
+div.galley {
+	width: 16vw; 
+	height: 10.5vw;
+	left: 20vw;
+	bottom: 53vh;
+}
+
+div.barque {
+	width: 18vw; 
+	height: 14vw;
+	right: 26vw;
+	bottom: 47vh;
+}
+
+div.galleon {
+	width: 18vw; 
+	height: 15vw;
+	right: 2vw;
+	bottom: 33vh;
+}
+
+div.frigate {
+	width: 18vw; 
+	height: 15vw;
+	left: 2vw;
+	bottom: 32vh;
+}
+
+div.manowar {
+	width: 18vw; 
+	height: 15vw;
+	left: 24vw;
+	bottom: 30vh;
+}
+
+div.shipoftheline {
+	width: 18vw; 
+	height: 15vw;
+	right: 20vw;
+	bottom: 24vh;
+}
+
+div.queenannesrevenge {
+	width: 20vw; 
+	height: 18vw;
+	right: 40vw;
+	bottom: 15vh;
+}
+
+div.ship img {
+	width: 100%;
+}
+
+div.credit {
+	position: absolute;
+	bottom: 10px; left: 0; right: 0;
+	z-index: -1;
+}
